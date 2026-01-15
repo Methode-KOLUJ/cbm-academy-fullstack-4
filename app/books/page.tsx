@@ -43,7 +43,7 @@ export default function Home() {
 
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 mt-10 lg:mt-14">
         <div className="text-center mb-20">
-          <h2 className="text-5xl md:text-6xl font-extrabold text-white mb-6 uppercase tracking-tight">
+          <h2 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white mb-6 uppercase tracking-tight">
             Livres pour <span className="text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-amber-600">Entrepreneurs</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-2xl mx-auto leading-relaxed">
@@ -161,3 +161,4 @@ export default function Home() {
     </div>
   );
 }
+
