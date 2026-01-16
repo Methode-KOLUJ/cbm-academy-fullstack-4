@@ -67,7 +67,7 @@ export default function HeroBox() {
           </AnimatePresence>
 
           <div className="relative h-full z-10 rounded-lg p-12 lg:p-20 flex flex-col justify-center items-center text-center">
-            <div className="max-w-6xl space-y-6 flex flex-col items-center">
+            <div className="max-w-6xl space-y-1 flex flex-col items-center">
               <motion.div
                 initial={{ opacity: 0, y: 30 }}
                 animate={{ opacity: 1, y: 0 }}
@@ -105,7 +105,7 @@ export default function HeroBox() {
               >
                 <Link
                   href={slide.lien}
-                  className="group relative inline-flex items-center gap-3 px-10 py-5 bg-amber-500 text-black font-bold text-xl rounded-full overflow-hidden transition-all hover:bg-white hover:scale-105 shadow-[0_0_40px_rgba(245,158,11,0.4)] hover:shadow-[0_0_60px_rgba(255,255,255,0.4)]"
+                  className="group relative inline-flex items-center gap-3 px-10 py-4 mt-4 md:mt-6 bg-amber-500 text-black font-bold text-xl rounded-full overflow-hidden transition-all hover:bg-white hover:scale-105 shadow-[0_0_40px_rgba(245,158,11,0.4)] hover:shadow-[0_0_60px_rgba(255,255,255,0.4)]"
                 >
                   <span className="relative z-10 uppercase tracking-wide">{slide.cta}</span>
                 </Link>
